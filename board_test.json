@@ -1,0 +1,235 @@
+{
+  "continents": [
+    {
+      "name": "Africa",
+      "countries": [
+        "Egypt",
+        "North Africa",
+        "Congo",
+        "East Africa",
+        "South Africa",
+        "Madagasacar"
+      ]
+    },
+    {
+      "name": "Asia",
+      "countries": [
+        "Middle East",
+        "India",
+        "China",
+        "Siam",
+        "Afghanistan",
+        "Mongolia",
+        "Ural",
+        "Siberia",
+        "Irkutsk",
+        "Yakursk",
+        "Kamchatka",
+        "Japan"
+      ]
+    },
+    {
+      "name": "Australia",
+      "countries": [
+        "Western Australia",
+        "Eastern Australia",
+        "Indonesia",
+        "New Guinea"
+      ]
+    },
+    {
+      "name": "Europe",
+      "countries": [
+        "Great Britain",
+        "Northern Europe",
+        "Iceland",
+        "Southern Europe",
+        "Western Europe",
+        "Scandinavia",
+        "Ukraine"
+      ]
+    },
+    {
+      "name": "North America",
+      "countries": [
+        "Alaska",
+        "Alberta",
+        "Ontario",
+        "Northwest Territory",
+        "Greenland",
+        "Quebec",
+        "Western US",
+        "Eastern US",
+        "Central America"
+      ]
+    },
+    {
+      "name": "South America",
+      "countries": [
+        "Argentina",
+        "Brazil",
+        "Venezuela",
+        "Peru"
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "name": "Egypt",
+      "continent": "Africa",
+      "adjacent countries": [
+        "North Africa",
+        "East Africa",
+        "Middle East",
+        "Southern Europe"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "North Africa",
+      "continent": "Africa",
+      "adjacent countries": [
+        "Egypt",
+        "East Africa",
+        "Congo",
+        "Brazil",
+        "Southern Europe",
+        "Western Europe"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Congo",
+      "continent": "Africa",
+      "adjacent countries": [
+        "North Africa",
+        "East Africa",
+        "South Africa"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "East Africa",
+      "continent": "Africa",
+      "adjacent countries": [
+        "Congo",
+        "South Africa",
+        "Madagascar",
+        "Middle East"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "South Africa",
+      "continent": "Africa",
+      "adjacent countries": [
+        "East Africa",
+        "Congo",
+        "Madagascar"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Madagascar",
+      "continent": "Africa",
+      "adjacent countries": [
+        "East Africa",
+        "South Africa"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Brazil",
+      "continent": "South America",
+      "adjacent countries": [
+        "Venezuela",
+        "North Africa",
+        "Peru",
+        "Argentina"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Venezuela",
+      "continent": "South America",
+      "adjacent countries": [
+        "Brazil",
+        "Peru",
+        "Central America"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Peru",
+      "continent": "South America",
+      "adjacent countries": [
+        "Brazil",
+        "Venezuela",
+        "Argentina"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Argentina",
+      "continent": "South America",
+      "adjacent countries": [
+        "Brazil",
+        "Peru"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Indonesia",
+      "continent": "Australia",
+      "adjacent countries": [
+        "Siam",
+        "New Guinea",
+        "Western Australia"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "New Guinea",
+      "continent": "Australia",
+      "adjacent countries": [
+        "Indonesia",
+        "Western Australia",
+        "Eastern Australia"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Western Australia",
+      "continent": "Australia",
+      "adjacent countries": [
+        "New Guinea",
+        "Indonesia",
+        "Eastern Australia"
+      ],
+      "troops": 0,
+      "owner": ""
+    },
+    {
+      "name": "Eastern Australia",
+      "continent": "Australia",
+      "adjacent countries": [
+        "New Guinea",
+        "Western Australia"
+      ],
+      "troops": 0,
+      "owner": ""
+    }
+  ]
+}

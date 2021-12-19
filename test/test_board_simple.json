@@ -1,0 +1,114 @@
+{
+  "continents": [
+    {
+      "name": "Australia",
+      "countries": [
+        "Western Australia",
+        "Eastern Australia",
+        "Indonesia",
+        "New Guinea"
+      ],
+      "bonus": 2
+    },
+    {
+      "name": "South America",
+      "countries": [
+        "Argentina",
+        "Brazil",
+        "Venezuela",
+        "Peru"
+      ],
+      "bonus": 2
+    }
+  ],
+  "countries": [
+    {
+      "name": "Brazil",
+      "continent": "South America",
+      "adjacent_countries": [
+        "Venezuela",
+        "Peru",
+        "Argentina",
+        "Indonesia"
+      ],
+      "num_troops": 7,
+      "owner": "Arnav"
+    },
+    {
+      "name": "Venezuela",
+      "continent": "South America",
+      "adjacent_countries": [
+        "Brazil",
+        "Peru"
+      ],
+      "num_troops": 6,
+      "owner": "Arnav"
+    },
+    {
+      "name": "Peru",
+      "continent": "South America",
+      "adjacent_countries": [
+        "Brazil",
+        "Venezuela",
+        "Argentina"
+      ],
+      "num_troops": 9,
+      "owner": "Aryan"
+    },
+    {
+      "name": "Argentina",
+      "continent": "South America",
+      "adjacent_countries": [
+        "Brazil",
+        "Peru",
+        "Eastern Australia"
+      ],
+      "num_troops": 8,
+      "owner": "Aryan"
+    },
+    {
+      "name": "Indonesia",
+      "continent": "Australia",
+      "adjacent_countries": [
+        "Brazil",
+        "New Guinea",
+        "Western Australia"
+      ],
+      "num_troops": 9,
+      "owner": "Shank"
+    },
+    {
+      "name": "New Guinea",
+      "continent": "Australia",
+      "adjacent_countries": [
+        "Indonesia",
+        "Western Australia",
+        "Eastern Australia"
+      ],
+      "num_troops": 14,
+      "owner": "Shank"
+    },
+    {
+      "name": "Western Australia",
+      "continent": "Australia",
+      "adjacent_countries": [
+        "New Guinea",
+        "Indonesia",
+        "Eastern Australia"
+      ],
+      "num_troops": 12,
+      "owner": "Manvir"
+    },
+    {
+      "name": "Eastern Australia",
+      "continent": "Australia",
+      "adjacent_countries": [
+        "New Guinea",
+        "Western Australia",
+        "Argentina"
+      ],
+      "num_troops": 7,
+      "owner": "Manvir"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "continents": [
+    {
+      "name": "Africa",
+      "countries": [
+        "Egypt",
+        "East Africa",
+        "North Africa"
+      ],
+      "bonus": 3
+    }
+  ],
+  "countries": [
+    {
+      "name": "Egypt",
+      "continent": "Africa",
+      "adjacent_countries": [
+        "East Africa",
+        "Egypt"
+      ],
+      "num_troops": 10,
+      "owner": "Arnav"
+    },
+    {
+      "name": "East Africa",
+      "continent": "Africa",
+      "adjacent_countries": [
+        "Egypt"
+      ],
+      "num_troops": 1,
+      "owner": "Arnav"
+    },
+    {
+      "name": "North Africa",
+      "continent": "Africa",
+      "adjacent_countries": [
+        "Egypt"
+      ],
+      "num_troops": 1,
+      "owner": "Arnav"
+    }
+  ]
+}

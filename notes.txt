@@ -1,0 +1,15 @@
+For when you start a game, you need to Add players. 
+
+let add_players players : List
+
+Add arnav
+Add Manvir
+
+Info country
+
+Pick country
+
+Attack country
+
+Fortify from to amount
+

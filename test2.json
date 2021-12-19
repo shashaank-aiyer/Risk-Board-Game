@@ -1,0 +1,143 @@
+{
+  "turn_mode": {
+    "type": "Placement Begin"
+  },
+  "current_player": {
+    "new_troops": 0,
+    "name": "Arnav",
+    "cards": []
+  },
+  "board": {
+    "continents": [
+      {
+        "name": "Australia",
+        "countries": [
+          "Western Australia",
+          "Eastern Australia",
+          "Indonesia",
+          "New Guinea"
+        ],
+        "bonus": 2
+      },
+      {
+        "name": "South America",
+        "countries": [
+          "Argentina",
+          "Brazil",
+          "Venezuela",
+          "Peru"
+        ],
+        "bonus": 2
+      }
+    ],
+    "countries": [
+      {
+        "name": "Brazil",
+        "continent": "South America",
+        "adjacent_countries": [
+          "Venezuela",
+          "Peru",
+          "Argentina",
+          "Indonesia"
+        ],
+        "troops": 1,
+        "owner": "Arnav"
+      },
+      {
+        "name": "Venezuela",
+        "continent": "South America",
+        "adjacent_countries": [
+          "Brazil",
+          "Peru"
+        ],
+        "troops": 1,
+        "owner": "Shank"
+      },
+      {
+        "name": "Peru",
+        "continent": "South America",
+        "adjacent_countries": [
+          "Brazil",
+          "Venezuela",
+          "Argentina"
+        ],
+        "troops": 34,
+        "owner": "Aryan"
+      },
+      {
+        "name": "Argentina",
+        "continent": "South America",
+        "adjacent_countries": [
+          "Brazil",
+          "Peru",
+          "Eastern Australia"
+        ],
+        "troops": 33,
+        "owner": "Shank"
+      },
+      {
+        "name": "Indonesia",
+        "continent": "Australia",
+        "adjacent_countries": [
+          "Brazil",
+          "New Guinea",
+          "Western Australia"
+        ],
+        "troops": 1,
+        "owner": "Arnav"
+      },
+      {
+        "name": "New Guinea",
+        "continent": "Australia",
+        "adjacent_countries": [
+          "Indonesia",
+          "Western Australia",
+          "Eastern Australia"
+        ],
+        "troops": 1,
+        "owner": "Shank"
+      },
+      {
+        "name": "Western Australia",
+        "continent": "Australia",
+        "adjacent_countries": [
+          "New Guinea",
+          "Indonesia",
+          "Eastern Australia"
+        ],
+        "troops": 1,
+        "owner": "Aryan"
+      },
+      {
+        "name": "Eastern Australia",
+        "continent": "Australia",
+        "adjacent_countries": [
+          "New Guinea",
+          "Western Australia",
+          "Argentina"
+        ],
+        "troops": 33,
+        "owner": "Arnav"
+      }
+    ]
+  },
+  "players": [
+    {
+      "new_troops": 0,
+      "name": "Arnav",
+      "cards": []
+    },
+    {
+      "new_troops": 0,
+      "name": "Shank",
+      "cards": []
+    },
+    {
+      "new_troops": 0,
+      "name": "Aryan",
+      "cards": []
+    }
+  ],
+  "received_card": false,
+  "trade_bonus": 4
+}

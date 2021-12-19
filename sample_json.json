@@ -1,0 +1,21 @@
+{
+  "continents": [
+    {
+      "name": "Africa",
+      "countries": [
+        "egypt",
+        "libya"
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "name": "egypt",
+      "continent": "Africa",
+      "adjacent_countries": [
+        "libya"
+      ],
+      "num_troops": 10
+    }
+  ]
+}

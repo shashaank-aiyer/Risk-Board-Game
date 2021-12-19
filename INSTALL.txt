@@ -1,0 +1,90 @@
+Our project is the game of Risk. 
+To run the code, in terminal type "make play"
+If this doesn't work, type "dune build" and then try "make play" again
+(Feel free to try to break our program, we ideally have covered
+every possible user input error)
+
+Additionaly for MS2, we began work on our gui. That is another folder in our zip file labeled
+RiskGUI, this is a java project, 
+usingg IntelliJ, open the java project with gradle. You should be able to run that in 
+gradle by clicking the "gradle" icon on the sidebar of the left of the screen, from there click 
+RiskGUI -> Tasks -> application -> run. This will display the current state of our GUI. 
+
+There is additional code we have written but currently have no good way for you to demo it, as 
+we have been testing it in utop right now. This code is capabale of communicating information 
+between the OCaml program and the Java gui via sockets. 
+
+
+When the game begins, you will have to set up the board
+your first command will have to be 
+
+    Player Amount num
+
+where num is the number of players playing from 2-6
+
+From there add your players one by one by doing 
+
+    Add name
+
+(If you would like to insert a first and last name, use an underscore
+as such first_last)
+
+From there, pick the countries you want when it is your turn using the command
+
+    Pick country
+
+(If the country name is multiple words, use an underscore,
+ as such first_last) 
+
+Then you can place your remaining troops as such, 
+
+    Place num country
+
+Where num is the number of troops you want to place and country is a country you own
+
+Once all players have all troops placed, you may begin the actual game
+
+At any point in the game you can call either of these commands: 
+
+    Player Info player_name
+    Country Info country_name
+
+to get info about a specific player or country respectively
+
+Also at any point you can call 
+
+    Exit
+
+to exit the game
+
+
+In the placement phase of your turn, you can place your troops in a country you own via
+
+    Place num country 
+
+In the attack phase of your turn, you can attack a country with a country you own using
+
+    Attack from towards
+
+where "from" is the country you own, and "towards" is a country to attack. 
+(You must have more than 1 troop in from to use it as an attacker)
+
+If you win an attack you can move troops to the new location from your attack location via
+
+    Move num
+
+where "num" is the amount of troops you want to move
+
+When you are done attacking, you can enter
+
+    Continue
+
+to continue
+
+In the fortify phase, you can move troops from a country you own to another country you own via
+
+  Fortify from towards num
+
+or instead of fortifying you can just type 
+
+    Continue
